@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sindisea - sindicato dos servidores da secretaria do estado de administração</title>
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ba0495ba9b.js" crossorigin="anonymous"></script>
+    <!-- Progress Bar -->
+    <script src="js/progressbar.min.js"></script>
+    <!-- Parallax-->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container" id="nav-container">
+          <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+              <a href="#" class="navbar-brand">
+                <img id="logo" src="img/logo_capa.png"> 
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+               aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" id="home-menu" href="#">Home</a>
+                    <a class="nav-item nav-link" id="about-menu" href="#">A agência</a>
+                    <a class="nav-item nav-link" id="services-menu" href="#">Ética</a>
+                    <a class="nav-item nav-link" id="team-menu" href="#">Equipe</a>
+                    <a class="nav-item nav-link" id="portfolio-menu" href="#">Projetos</a>
+                    <a class="nav-item nav-link" id="call-menu" href="#">Filia-se</a>
+                    <a class="nav-item nav-link" id="contact-menu" href="#">Contato</a>
+                </div>
+              </div>
+          </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div id="mainSlider" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+                    <li data-target="#mainSlider" data-slide-to="1" ></li>
+                    <li data-target="#mainSlider" data-slide-to="2" ></li>
+                    <li data-target="#mainSlider" data-slide-to="3" ></li>
+                    <li data-target="#mainSlider" data-slide-to="4" ></li>
+                    <li data-target="#mainSlider" data-slide-to="5" ></li>
+
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/Uniao.png" class="d-block w-100" alt="Projetos de e-commerce">
+                        <div class="carousel-caption d-md-block">
+                            <h2>Semana do Servidor</h2>
+                            <p>Com muito carinho, apresentamos a programação da Semana do Servidor!</p>
+                            <a href="#" class="main-btn">Ver notícia</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Presidente.png" class="d-block w-100" alt="Engenharia de Software">
+                        <div class="carousel-caption d-md-block">
+                            <h2>Mensagem do Presidente</h2>
+                            <p>Pronunciamento final do presidente.</p>
+                            <a href="#" class="main-btn">Ver notícia</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/EleicosFinal.png" class="d-block w-100" alt="Manutenção em Software">
+                        <div class="carousel-caption d-md-block">
+                            <h2>Resultados das Eleições Sindisea</h2>
+                            <p> Mapa de apuração da eleição.</p>
+                            <a href="#" class="main-btn">Ver notícia</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/Eleicoes1.png" class="d-block w-100" alt="Manutenção em Software">
+                      <div class="carousel-caption d-md-block">
+                          <h2>Eleições Sindisea 2020</h2>
+                          <p>Conheça os candidatos e saiba como votar de forma digital.</p>
+                          <a href="#" class="main-btn">Ver notícia</a>
+                      </div>
+                   </div>
+                   <div class="carousel-item">
+                    <img src="img/Eleicoes2.png" class="d-block w-100" alt="Manutenção em Software">
+                    <div class="carousel-caption d-md-block">
+                        <h2>Eleições Sindicais</h2>
+                        <p>Divulgada ata de homologação da chapa inscrita e nomes para o conselho fiscal.</p>
+                        <a href="#" class="main-btn">Ver notícia</a>
+                    </div>
+                 </div>
+                <div class="carousel-item">
+                  <img src="img/Eleicoes3.png" class="d-block w-100" alt="Manutenção em Software">
+                  <div class="carousel-caption d-md-block">
+                      <h2>Inicio das Eleições Sindisea 2020</h2>
+                      <p>As eleições do Sindisea serão totalmente on-line. Confira e atualize seus dados cadastrais.</p>
+                      <a href="#" class="main-btn">Ver notícia</a>
+                  </div>
+              </div>
+                </div>
+                <a href="#mainSlider" class="carousel-control-prev" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a href="#mainSlider" class="carousel-control-next" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!-- Sobre a empresa -->
+            <div id="about-area">
+                <div class="container">
+                  <div class="row">
+                      <div class="col-12">
+                        <h3 class="main-title">Sobre a Sindisea</h3>
+                      </div>
+                      <div class="col-md-6">
+                        <img class="img-fluid" src="img/a_empresa_capa.png" alt="Sindisea">
+                      </div>
+                      <div class="col-md-6">
+                        <h3 class="about-title">O Sindisea é uma entidade sindical sem fins lucrativos'</h3>
+                        <p>Sem caráter político-partidário ou religioso. Fundado em 15 de abril de 2011 e tem sua base territorial em todo o Estado de Santa Catarina. 
+                          Seu objetivo é defender os interesses dos servidores públicos vinculados à Secretaria de Estado da Administração (SEA), 
+                          além de assegurar a representação e a defesa administrativa e judicial dos seus filiados.
+                        </p>
+                        <h5>Dentre suas finalidades, destaca-se:</h5> 
+                        <ul id="about-list">
+                          <li><i class="fas fa-check"></i> Promover a cooperação operacional entre os filiados, a organização e a 
+                                                           integração da categoria em defesa de interesses imediatos e futuros;</li>  
+                          <li><i class="fas fa-check"></i> Promover a cooperação operacional entre os filiados, a organização e 
+                                                           a integração da categoria em defesa de interesses imediatos e futuros;</li>
+                          <li><i class="fas fa-check"></i> Apoiar iniciativas populares justas e razoáveis em prol da melhoria das condições de vida dos filiados e do povo brasileiro;
+                                                           Incentivar os aprimoramentos culturais, intelectuais e profissionais dos filiados, bem como, manter contatos e intercâmbios 
+                                                           com as entidades congêneres, sindicais ou não, em todos os níveis</li>  
+                          <li><i class="fas fa-check"></i> Representar e salvaguardar os direitos e interesses profissionais, coletivos e 
+                                                           individuais de seus filiados perante as entidades públicas, autoridades executivas,
+                                                           legislativas, judiciárias e particulares em geral, inclusive nos seus envolvimentos socioeconômicos
+                                                           e políticos, em juízo ou fora dele;</li>  
+                          <li><i class="fas fa-check"></i> Zelar pela manutenção e pelo cumprimento da legislação, dos atos administrativos, dos acordos, de 
+                                                           convenções coletivas de trabalho, das sentenças normativas, enfim, de quaisquer institutos asseguradores 
+                                                           de direitos coletivos e/ou individuais aos membros da Categoria;
+                                                           Dirimir as questões suscitadas por qualquer filiado.</li>  
+                        </ul>
+                      </div>
+                  </div>   
+                </div>
+            </div>
+            <!-- Serviços da empresa -->
+            <div id="services-area">
+                <div class="container">
+                    <div class="row">
+                      <div class="col-12">
+                        <h3 class="main-title">Nossos Focos</h3>
+                      </div>
+                      <div class="col-md-4 service-box">
+                        <i class="fas fa-users"></i>
+                        <h4>Missão</h4>
+                        <p>Defender os interesses individuais ou coletivos dos servidores que integram o quadro dos servidores lotados e 
+                           em exercício da Secretaria de Estado da Administração do Estado de Santa Catarina, quer sejam ativos ou aposentados
+                           e seus pensionistas, representando-os perante as autoridades administrativas, legislativas e judiciárias.</p> 
+                      </div>
+                      <div class="col-md-4 service-box">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <h4>Visão</h4>
+                        <p>Ser reconhecido e respeitado como entidade sindical em todo o Estado de Santa Catarina.</p> 
+                      </div>
+                      <div class="col-md-4 service-box">
+                        <i class="fas fa-user-tie"></i>
+                        <h4>Valores</h4>
+                          <li>Honestidade </li>
+                          <li>Transparência </li>
+                          <li>Ética </li>
+                          <li>Moral </li>
+                          <li>Respeito </li>
+                          <li>Responsabilidade social </li>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Dados da empresa -->
+            <div id="data-area">
+              <div class= "container">
+                <div class="row">
+                  <div class="col-md-3 col-xs-6 circle-box">
+                    <div id="circleA"></div>
+                    <p>Projetos feitos</p>
+                  </div>
+                  <div class="col-md-3 col-xs-6 circle-box">
+                    <div id="circleB"></div>
+                    <p>Clientes Satisfeitos</p>
+                  </div>
+                  <div class="col-md-3 col-xs-6 circle-box">
+                    <div id="circleC"></div>
+                    <p>Colaboradores</p>
+                  </div>
+                  <div class="col-md-3 col-xs-6 circle-box">
+                    <div id="circleD"></div>
+                    <p>Avaliações</p>
+                  </div>
+               </div>
+             </div>
+           </div>
+        </div>
+        <!-- Time -->
+         <div id="team-area">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <h3 class="main-title">Diretoria Sindisea</h3>
+                  <h4 class="main-title">Gestão 2020/2023</h4>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="img/1.png" class="card-img-top" alt="Imagem de Perfil 1">
+                    <div class="card-body">
+                      <h5 class="card-title">President</h5>
+                      <p class="card-text">Adriana Rohrig Vieira</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="img/2.png" class="card-img-top" alt="Imagem de Perfil 2">
+                    <div class="card-body">
+                      <h5 class="card-title">Vice-President</h5>
+                      <p class="card-text">Marcelo Carneiro</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="img/3.png" class="card-img-top" alt="Imagem de Perfil 3">
+                    <div class="card-body">
+                      <h5 class="card-title">Secretary</h5>
+                      <p class="card-text">Danielle Ferreira de Araújo</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="img/4.png" class="card-img-top" alt="Imagem de Perfil 4">
+                    <div class="card-body">
+                      <h5 class="card-title">Administrative and Financial Director</h5>
+                      <p class="card-text">Leonardo da Silva</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                    <img src="img/5.png" class="card-img-top" alt="Imagem de Perfil 5">
+                    <div class="card-body">
+                      <h5 class="card-title">Communication and Social Relationship Director</h5>
+                      <p class="card-text">Mariana Mighelli Becker</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+         </div>
+        <!-- Trabalhe conosco -->
+        <div id="apply-area">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6 apply-box" id="company-img"></div>
+              <div class="col-md-6 apply-box" id="pattern-img">
+                <h4>Buscando por Oportunidades?</h4>
+                <p>Diariamente, os servidores da Secretaria de Estado da Administração de Santa Catarina (SEA/SC) realizam ações em busca de
+                   soluções que envolvam menos gastos ao estado e à sociedade, mantendo a qualidade e buscando a celeridade na prestação do 
+                   serviço e no trato com os bens públicos</p>
+                <p>Tenha a chance de trabalhar conosco.</p>
+                <a href="#" class="main-btn" id="apply-btn">Saiba Mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Portfólio -->
+        <div id="portfolio-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="main-title">Nossos Projetos</h3>
+              </div>
+              <div class="col-md-12" id="filter-btn-box">
+                <button class="main-btn filter-btn active" id="all-btn">Todos</button>
+                <button class="main-btn filter-btn" id="dev-btn">Social</button>
+                <button class="main-btn filter-btn" id="dsg-btn">Econônimico</button>
+                <button class="main-btn filter-btn" id="seo-btn">Administrativo</button>
+              </div>
+              <div class="col-md-4 project-box dev">
+                <img src="img/proj1.jpg" class="img-fluid" alt="Projeto 1">
+              </div>
+              <div class="col-md-4 project-box dsg">
+                <img src="img/proj2.jpg" class="img-fluid" alt="Projeto 2">
+              </div>
+              <div class="col-md-4 project-box seo">
+                <img src="img/proj3.jpg" class="img-fluid" alt="Projeto 3">
+              </div>
+              <div class="col-md-4 project-box dev">
+                <img src="img/proj4.jpg" class="img-fluid" alt="Projeto 4">
+              </div>
+              <div class="col-md-4 project-box dsg">
+                <img src="img/proj5.jpg" class="img-fluid" alt="Projeto 5">
+              </div>
+              <div class="col-md-4 project-box seo">
+                <img src="img/proj6.jpg" class="img-fluid" alt="Projeto 6">
+              </div>
+            </div>
+        </div>
+        </div>
+        <!-- Newsletter -->
+        <div id="news-area">
+          <div class="container">
+            <div class="col-md-12">
+              <h3 class="main-title">Fique por dentro das novidades</h3>
+            </div>
+            <p>Assine nossa lista de e-mails, e receba nossas notícias recentes.</p>
+            <form action="">
+              <input type="email" class="form-control" id="email-input" name="email" placeholder="Seu melhor e-mail">
+              <input type="submit" id="news-btn" value="Inscrever">
+            </form>
+          </div>
+        </div>
+        <!-- Call to action -->
+        <div id="call-area">
+          <div class="container">
+              <div class="row">
+                <p>Deseja filiar-se?</p>
+                <button class="main-btn" id="call-btn">Filia-se</button>
+              </div>
+            </div>
+        </div>
+      </div>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+      <div id="contact-area">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="main-title">Entre em contato conosco</h3>
+              </div>
+              <div class="col-md-4 contact-box">
+                <i class="fas fa-phone"></i>
+                <p><span class="contact-title">Ligue para:</span> (48)99182-2462</p>
+              </div>
+              <div class="col-md-4 contact-box">
+                <i class="fas fa-envelope"></i>
+                <p><span class="contact-title">Envie um email:</span> sindiasea@sindiasea.org.br</p>
+              </div>
+              <div class="col-md-4 contact-box">
+                  <i class="fas fa-map-marker-alt"></i>
+                <p><span class="contact-title">Venha se comunicar:</span> R. Presidente Nereu Ramos, 69 - Edifício Bello Empresarial, Sala 204 - Centro, Florianópolis - SC</p>
+              </div>
+              <div class="col-md-4 contact-box">
+                <i class="fab fa-twitter"></i>
+              <p><span class="contact-title">Twitter:</span><a href="https://twitter.com/sindiseasc/"> Rede Social</a></p>
+             </div>
+              <div class="col-md-4 contact-box">
+                <i class="fab fa-instagram"></i>
+              <p><span class="contact-title">Instagram:</span><a href="https://www.instagram.com/sindiseasc/"> Rede Social</a></p>
+             </div>
+             <div class="col-md-4 contact-box">
+              <i class="fab fa-facebook"></i>
+              <p><span class="contact-title">Facebook:</span><a href="https://www.facebook.com/sindiseasc/"> Rede Social</a></p>
+             </div>
+              <div class="col-md-6" id="msg-box">
+                <p>Ou nos deixe uma mensagem:</p>
+              </div>
+              <div class="col-md-6" id="contact-form">
+                <form action= "">
+                  <input type="text" class="form-control" placeholder="E-mail" name="email">
+                  <input type="text" class="form-control" placeholder="Assunto" name="subject">
+                  <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
+                  <input type="submit" class="main-btn" value="Enviar">
+                </form>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div id="copy-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>Desenvolvido por <a href="http://equipedigital.com/" target="_blank">Equipe Digital</a> &copy; 2020</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Scripts do projeto -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
